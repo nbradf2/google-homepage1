@@ -38,3 +38,11 @@ a:hover {
 a:visited {
     color: black;
 }
+
+li .sign-in {
+    padding: 8px 12px;
+    color: white;
+    font-weight: bold;
+    background-color:  #4285f4;
+    border: 1px solid #4285f4;
+}
