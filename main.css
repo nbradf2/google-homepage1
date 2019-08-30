@@ -6,6 +6,19 @@
     font-family: Arial, sans-serif;
     font-size: 13px;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+}
  
 /***** NAV BAR *****/
 
@@ -26,23 +39,21 @@ nav li {
     float: right;
 }
 
-a {
-    color: black;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:visited {
-    color: black;
-}
-
 li .sign-in {
     padding: 8px 12px;
     color: white;
     font-weight: bold;
     background-color:  #4285f4;
     border: 1px solid #4285f4;
+}
+
+/***** MAIN *****/
+
+main {
+    text-align: center;
+    margin-top: 160px;
+}
+
+main img {
+    padding-bottom: 20px;
 }
