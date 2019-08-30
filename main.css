@@ -2,3 +2,15 @@
     margin: 0;
     padding: 0;
 }
+ 
+nav ul {
+    display: inline-block;
+}
+
+nav li {
+    display: inline;
+}
+
+.account {
+    float: right;
+}
