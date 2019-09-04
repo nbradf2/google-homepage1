@@ -5,10 +5,15 @@
     padding: 0;
     font-family: Arial, sans-serif;
     font-size: 13px;
+    color: rgba(0, 0, 0, 0.60);
+}
+
+ul {
+    display: inline-block;
 }
 
 a {
-    color: black;
+    color: rgba(0, 0, 0, 0.60);
     text-decoration: none;
 }
 
@@ -17,25 +22,22 @@ a:hover {
 }
 
 a:visited {
-    color: black;
+    color: color: rgba(0, 0, 0, 0.60);;
 }
  
-/***** NAV BAR *****/
+/***** NAV BAR & FOOTER *****/
 
 nav {
     margin: 20px;
 }
 
-nav ul {
-    display: inline-block;
-}
-
-nav li {
+li {
     display: inline;
     padding: 7px;
 }
 
-.account {
+.account,
+.privacy {
     float: right;
 }
 
@@ -45,6 +47,15 @@ li .sign-in {
     font-weight: bold;
     background-color:  #4285f4;
     border: 1px solid #4285f4;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+
+footer a {
+    color: rgba(0, 0, 0, 0.60);
 }
 
 /***** MAIN *****/
